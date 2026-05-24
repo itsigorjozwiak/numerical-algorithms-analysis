@@ -1,0 +1,42 @@
+# 1. Compiled Binaries and Object Files (Never commit executables or local builds)
+*.o
+*.obj
+*.exe
+*.out
+*.app
+main
+outDebug
+
+# 2. Program Generated Data (Keep the repo clean from output files)
+*.csv
+*.dat
+
+# 3. LaTeX Auxiliary Files (Do NOT ignore .pdf, as reports should be visible!)
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.blg
+*.bbl
+*.bcf
+*.run.xml
+*.lof
+*.lot
+
+# 4. IDEs, Editors and System Artifacts
+.vscode/
+.idea/
+*.suo
+*.user
+*.workspace
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# 5. Backup and temporary folders
+[Bb]uild/
+[Bb]in/
